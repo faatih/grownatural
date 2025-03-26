@@ -5,30 +5,27 @@ export default function ProductDescriptionSection() {
 		<section className="py-16 bg-gray-50 px-4">
 			<div className="max-w-4xl mx-auto">
 				<h2 className="text-3xl font-bold mb-4 text-center">
-					A Topical Hair Growth Solution
+					Etkili Saç Büyüme Çözümü
 				</h2>
 				<p className="mb-6 text-lg text-center">
-					Our advanced formula supports healthy hair growth and improves scalp health.
+					Gelişmiş formülümüz, saçların sağlıklı büyümesini destekler ve saç derinizi güçlendirir.
 				</p>
 				<ul className="space-y-4">
 					<li>
-						<strong>Minoxidil (2%):</strong> Clinically proven to stimulate hair growth,
-						perfect for women or those preferring a gentler option.
+						<strong>Minoxidil (%2):</strong> Saç büyümesini uyarır; hassas ciltler ve kadın kullanımı için idealdir.
 					</li>
 					<li>
-						<strong>Caffeine:</strong> Helps stimulate hair follicles and counteract the effects of DHT.
+						<strong>Kafein:</strong> Saç köklerini canlandırır ve DHT etkisini azaltmaya yardımcı olur.
 					</li>
 					<li>
-						<strong>Rosemary Oil:</strong> Traditionally used for promoting hair growth and improving scalp circulation – some studies suggest its positive role in hair care.
+						<strong>Biberiye Yağı:</strong> Saç büyümesini destekler ve saç derisinde kan dolaşımını artırır.
 					</li>
 					<li>
-						<strong>Niacinamide:</strong> Supports blood circulation and reduces scalp inflammation.
+						<strong>Niacinamide:</strong> Kan dolaşımını iyileştirir ve saç derisindeki iltihabı azaltır.
 					</li>
+					{/* Removed Panthenol list item */}
 					<li>
-						<strong>Panthenol:</strong> Hydrates the scalp and hair for improved elasticity and manageability.
-					</li>
-					<li>
-						<strong>Azelaic Acid (1.5%):</strong> Provides mild anti-inflammatory benefits to maintain scalp health.
+						<strong>Azelaik Asit (%1.5):</strong> Hafif anti-inflamatuar etkisiyle saç derisini korur.
 					</li>
 				</ul>
 			</div>

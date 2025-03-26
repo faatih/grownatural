@@ -4,18 +4,18 @@ import Image from "next/image";
 
 const results = [
   {
-    duration: "3 Months",
-    description: "Visible reduction in hair loss and improved scalp health",
+    duration: "3 Ay",
+    description: "Saç dökülmesinde belirgin azalma ve saç derisinde güçlenme",
     image: "/images/results1.PNG",
   },
   {
-    duration: "6 Months",
-    description: "Noticeable hair regrowth and increased density",
+    duration: "6 Ay",
+    description: "Yeni saç çıkışlarında artış ve yoğunlukta belirgin fark",
     image: "/images/results2.PNG",
   },
   {
-    duration: "12 Months",
-    description: "Significant improvement in overall hair thickness and coverage",
+    duration: "12 Ay",
+    description: "Saç kalınlığı ile dolgunlukta anlamlı artış",
     image: "/images/results3.PNG",
   },
 ];
@@ -24,7 +24,7 @@ export default function RealResultsSection() {
   return (
     <section className="py-24 bg-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl md:text-5xl font-serif text-center mb-16">Real Results</h2>
+        <h2 className="text-4xl md:text-5xl font-serif text-center mb-16">Gerçek Sonuçlar</h2>
         <div className="grid md:grid-cols-3 gap-12">
           {results.map((result, index) => (
             <motion.div

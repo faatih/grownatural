@@ -64,11 +64,11 @@ export default function Home() {
         scrollToSection={scrollToSection} 
       />
       <HeroSection />
-      <ProductDescriptionSection />
+      <IngredientsSection />
       <BenefitsSection />
       <HowToUseSection />
       <RealResultsSection />
-      <IngredientsSection />
+
       <TestimonialsSection />
       <ScienceBehindSection />
       {/* BlogSection removed */}

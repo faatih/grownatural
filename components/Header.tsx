@@ -12,10 +12,10 @@ interface HeaderProps {
 }
 
 const navItems = [
-  { name: "Benefits", href: "#benefits" },
-  { name: "Ingredients", href: "#ingredients" },
-  { name: "How It Works", href: "#how-it-works" },
-  { name: "FAQ", href: "#faq" },
+  { name: "Faydalar", href: "#benefits" },
+  { name: "İçerikler", href: "#ingredients" },
+  { name: "Nasıl Çalışır", href: "#how-it-works" },
+  { name: "SSS", href: "#faq" },
   { name: "Blog", href: "#blog" },
 ];
 
@@ -65,7 +65,7 @@ const Header: React.FC<HeaderProps> = ({
               </button>
             ))}
             <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-white">
-              Shop Now
+              Şimdi Alışveriş Yap
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
           </nav>
@@ -104,7 +104,7 @@ const Header: React.FC<HeaderProps> = ({
               ))}
               <div className="px-4 pt-2">
                 <Button variant="outline" className="w-full border-primary text-primary hover:bg-primary hover:text-white">
-                  Shop Now
+                  Şimdi Alışveriş Yap
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </div>

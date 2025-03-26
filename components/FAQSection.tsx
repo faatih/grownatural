@@ -1,18 +1,17 @@
-
 import { motion } from "framer-motion";
 
 const faqs = [
   {
-    question: "How long does it take to see results?",
-    answer: "Most users see visible results within 3 to 6 months of consistent use.",
+    question: "Sonuçları görmek ne kadar sürer?",
+    answer: "Çoğu kullanıcı, düzenli kullanım sonucunda 3 ila 6 ay içinde belirgin sonuçlar görür.",
   },
   {
-    question: "Are there any side effects?",
-    answer: "Our formula is made with natural ingredients and is generally well-tolerated. However, we recommend consulting with a healthcare provider before starting any new treatment.",
+    question: "Herhangi bir yan etki var mı?",
+    answer: "Formülümüz doğal içeriklerden üretilmiş olup genellikle iyi tolere edilir. Ancak, yeni bir tedaviye başlamadan önce bir sağlık uzmanına danışmanızı öneririz.",
   },
   {
-    question: "How often should I use the product?",
-    answer: "For best results, use the product daily as directed.",
+    question: "Ürünü ne sıklıkta kullanmalıyım?",
+    answer: "En iyi sonuçlar için, ürünü günde bir kez kullanım talimatına uygun olarak kullanın.",
   },
 ];
 
@@ -20,7 +19,7 @@ export default function FAQSection() {
   return (
     <section id="faq" className="py-24 bg-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl md:text-5xl font-serif text-center mb-16">Frequently Asked Questions</h2>
+        <h2 className="text-4xl md:text-5xl font-serif text-center mb-16">Sıkça Sorulan Sorular</h2>
         <div className="space-y-8">
           {faqs.map((faq, index) => (
             <motion.div
