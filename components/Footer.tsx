@@ -1,4 +1,3 @@
-
 import { motion } from "framer-motion";
 import { Leaf } from "lucide-react";
 
@@ -15,7 +14,9 @@ export default function Footer() {
         >
           <Leaf className="h-8 w-8 text-primary" />
           <span className="text-xl font-serif">GrowNatural</span>
-          <p className="text-gray-400">&copy; {new Date().getFullYear()} GrowNatural. All rights reserved.</p>
+          <p className="text-gray-400">
+            &copy; {new Date().getFullYear()} GrowNatural. Tüm hakları saklıdır.
+          </p>
         </motion.div>
       </div>
     </footer>

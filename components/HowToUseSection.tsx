@@ -1,24 +1,23 @@
-
 import { motion } from "framer-motion";
 import { Beaker, Leaf, Clock } from "lucide-react";
 
 const howToUse = [
   {
     step: 1,
-    title: "Clean & Dry",
-    description: "Start with clean, dry hair and scalp",
+    title: "Temiz ve Kuru",
+    description: "Ürünü, saçınız ve saç deriniz tamamen temiz ve kuruyken kullanın.",
     icon: Beaker,
   },
   {
     step: 2,
-    title: "Apply",
-    description: "Use dropper to apply directly to areas of concern",
+    title: "Doğrudan Uygula",
+    description: "Damlalık yardımıyla, ilgilendiğiniz bölgelere eşit şekilde uygulayın.",
     icon: Leaf,
   },
   {
     step: 3,
-    title: "Massage",
-    description: "Gently massage into scalp for 1-2 minutes",
+    title: "Nazik Masaj",
+    description: "Ürünü saç derinize 1-2 dakika boyunca nazikçe masaj yaparak yedirin.",
     icon: Clock,
   },
 ];
@@ -27,7 +26,9 @@ export default function HowToUseSection() {
   return (
     <section className="py-24 bg-[#F8F7F4]">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl md:text-5xl font-serif text-center mb-16">How to Use</h2>
+        <h2 className="text-4xl md:text-5xl font-serif text-center mb-16">
+          Nasıl Kullanılır?
+        </h2>
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
@@ -55,7 +56,7 @@ export default function HowToUseSection() {
                 </div>
                 <div>
                   <span className="inline-block bg-primary/10 text-primary rounded-full px-4 py-1 text-sm mb-2">
-                    Step {step.step}
+                    Adım {step.step}
                   </span>
                   <h3 className="text-xl font-serif mb-2">{step.title}</h3>
                   <p className="text-gray-600">{step.description}</p>

@@ -1,4 +1,3 @@
-
 import { motion } from "framer-motion";
 import { ShieldCheck } from "lucide-react";
 
@@ -14,9 +13,9 @@ export default function GuaranteeSection() {
           className="max-w-2xl mx-auto"
         >
           <ShieldCheck className="h-12 w-12 mx-auto mb-6 text-primary" />
-          <h2 className="text-4xl md:text-5xl font-serif mb-4">Our Guarantee</h2>
+          <h2 className="text-4xl md:text-5xl font-serif mb-4">Gururla Garantili</h2>
           <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
-            We are confident in the effectiveness of our product. If you are not satisfied with your results, we offer a 100% money-back guarantee within 90 days of purchase.
+            Ürünümüzün etkinliğine tam anlamıyla inanıyoruz. Eğer 90 gün içinde memnun kalmazsanız, paranızı eksiksiz iade ediyoruz.
           </p>
         </motion.div>
       </div>

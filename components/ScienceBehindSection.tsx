@@ -4,13 +4,13 @@ import { FlaskRound, Microscope } from "lucide-react"; // Ensure these icons are
 
 const science = [
   {
-    title: "Clinically Proven",
-    description: "Our formula is backed by clinical studies showing significant hair growth.",
+    title: "Klinik Kanıtlı",
+    description: "Formülümüz, saç büyümesini destekleyen klinik çalışmalarla kanıtlanmıştır.",
     icon: FlaskRound,
   },
   {
-    title: "Advanced Research",
-    description: "Developed by leading scientists in the field of hair restoration.",
+    title: "İleri Araştırma",
+    description: "Saç restorasyonunda uzman bilim insanları tarafından titizlikle geliştirildi.",
     icon: Microscope,
   },
 ];
@@ -19,7 +19,9 @@ export default function ScienceBehindSection() {
   return (
     <section id="science" className="py-24 bg-[#F8F7F4]">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl md:text-5xl font-serif text-center mb-16">The Science Behind GrowNatural</h2>
+        <h2 className="text-4xl md:text-5xl font-serif text-center mb-16">
+          GrowNatural’ın Bilimsel Temelleri
+        </h2>
         <div className="grid md:grid-cols-2 gap-12">
           {science.map((item, index) => (
             <motion.div
